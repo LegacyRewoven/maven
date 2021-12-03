@@ -1,2 +1,2 @@
 # maven
-The maven repository for legacy rewoven artefacts
+The maven repository for legacy rewoven artifacts
