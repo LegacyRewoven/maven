@@ -44,7 +44,7 @@
     <dependency>
       <groupId>io.github.legacyrewoven.rewoven-api</groupId>
       <artifactId>rewoven-networking-api-v1</artifactId>
-      <version>1.0.0+7af88e5b9d</version>
+      <version>1.0.0+94344461a5</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
