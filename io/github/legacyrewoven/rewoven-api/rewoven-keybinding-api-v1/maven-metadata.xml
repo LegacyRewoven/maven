@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>io.github.legacyrewoven.rewoven-api</groupId>
+  <artifactId>rewoven-keybinding-api-v1</artifactId>
+  <versioning>
+    <latest>1.0.0+7af88e5b9d</latest>
+    <release>1.0.0+7af88e5b9d</release>
+    <versions>
+      <version>1.0.0+7af88e5b9d</version>
+    </versions>
+    <lastUpdated>20211204061713</lastUpdated>
+  </versioning>
+</metadata>
