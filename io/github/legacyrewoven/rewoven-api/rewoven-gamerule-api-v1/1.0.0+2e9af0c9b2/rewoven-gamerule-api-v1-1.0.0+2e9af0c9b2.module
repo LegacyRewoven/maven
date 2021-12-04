@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.legacyrewoven.rewoven-api",
+    "module": "rewoven-gamerule-api-v1",
+    "version": "1.0.0+2e9af0c9b2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "rewoven-gamerule-api-v1-1.0.0+2e9af0c9b2.jar",
+          "url": "rewoven-gamerule-api-v1-1.0.0+2e9af0c9b2.jar",
+          "size": 4794,
+          "sha512": "cc8ca8466e0c1ddbaf4401e0b72a16125b91f467e2ddbea85df87c613b11efecb815ccc36a771bf37314a8f531adc052029e21bb904dde7a999dcdac54e9a202",
+          "sha256": "67f2f2e97863d1e70eaf13d125e652dd4906ed1e1b596f6ef0bcaaa020b88921",
+          "sha1": "ae83cce35e38bed879230e8a7e0982bca987a7a9",
+          "md5": "3192ef30fc637dc7f28208a2c7561499"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.lwjgl.lwjgl",
+          "module": "lwjgl_util",
+          "version": {
+            "requires": "2.9.4-nightly-20150209"
+          }
+        },
+        {
+          "group": "org.lwjgl.lwjgl",
+          "module": "lwjgl",
+          "version": {
+            "requires": "2.9.4-nightly-20150209"
+          }
+        },
+        {
+          "group": "org.lwjgl.lwjgl",
+          "module": "lwjgl-platform",
+          "version": {
+            "requires": "2.9.4-nightly-20150209"
+          }
+        },
+        {
+          "group": "io.github.legacyrewoven.rewoven-api",
+          "module": "rewoven-api-base",
+          "version": {
+            "requires": "1.0.0+2e9af0c9b2"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.12.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rewoven-gamerule-api-v1-1.0.0+2e9af0c9b2.jar",
+          "url": "rewoven-gamerule-api-v1-1.0.0+2e9af0c9b2.jar",
+          "size": 4794,
+          "sha512": "cc8ca8466e0c1ddbaf4401e0b72a16125b91f467e2ddbea85df87c613b11efecb815ccc36a771bf37314a8f531adc052029e21bb904dde7a999dcdac54e9a202",
+          "sha256": "67f2f2e97863d1e70eaf13d125e652dd4906ed1e1b596f6ef0bcaaa020b88921",
+          "sha1": "ae83cce35e38bed879230e8a7e0982bca987a7a9",
+          "md5": "3192ef30fc637dc7f28208a2c7561499"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rewoven-gamerule-api-v1-1.0.0+2e9af0c9b2-sources.jar",
+          "url": "rewoven-gamerule-api-v1-1.0.0+2e9af0c9b2-sources.jar",
+          "size": 4302,
+          "sha512": "458bc229e42ea57af70d202910d7cfe5a9a1583fb084c833c2e00ec13b45a5b90d7aef1761e30c631addf17176985520ada03caf8ca8fe17b09489448ffe2b5b",
+          "sha256": "25ae16105049332c4c8a8884a2b5bc07ae998acd642a15f30166abe0012076f5",
+          "sha1": "304cc2b9d048dd083374aa1a0ede01cf67427f0f",
+          "md5": "1ccd14cc13ec8504df701f363e14d884"
+        }
+      ]
+    }
+  ]
+}

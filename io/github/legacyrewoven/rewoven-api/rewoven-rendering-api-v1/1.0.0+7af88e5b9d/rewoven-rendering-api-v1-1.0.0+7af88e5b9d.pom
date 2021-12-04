@@ -1,21 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.github.legacyrewoven.rewoven-api</groupId>
   <artifactId>rewoven-rendering-api-v1</artifactId>
   <version>1.0.0+7af88e5b9d</version>
   <dependencies>
     <dependency>
+      <groupId>org.lwjgl.lwjgl</groupId>
+      <artifactId>lwjgl_util</artifactId>
+      <version>2.9.4-nightly-20150209</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.lwjgl.lwjgl</groupId>
+      <artifactId>lwjgl</artifactId>
+      <version>2.9.4-nightly-20150209</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.lwjgl.lwjgl</groupId>
+      <artifactId>lwjgl-platform</artifactId>
+      <version>2.9.4-nightly-20150209</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.github.legacyrewoven.rewoven-api</groupId>
+      <artifactId>rewoven-api-base</artifactId>
+      <version>1.0.0+2e9af0c9b2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
       <groupId>net.fabricmc</groupId>
-      <artifactId>fabric-loader-1.8.9</artifactId>
-      <version>0.11.1+build.202112040255</version>
-      <scope>compile</scope>
-      <exclusions>
-        <exclusion>
-          <groupId>*</groupId>
-          <artifactId>guava</artifactId>
-        </exclusion>
-      </exclusions>
+      <artifactId>fabric-loader</artifactId>
+      <version>0.12.5</version>
+      <scope>runtime</scope>
     </dependency>
   </dependencies>
 </project>

@@ -1,0 +1,124 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.legacyrewoven.rewoven-api",
+    "module": "rewoven-vanilla-command-api-v1",
+    "version": "1.0.0+7af88e5b9d",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "rewoven-vanilla-command-api-v1-1.0.0+7af88e5b9d.jar",
+          "url": "rewoven-vanilla-command-api-v1-1.0.0+7af88e5b9d.jar",
+          "size": 6358,
+          "sha512": "14a418672729be8eeaadf9506dd2a319c77f3a08cd3bc36eec38b459c7ed841168b6cb40ba26cdc3909a4965c23988459760613e5686739c958a59cbc6167929",
+          "sha256": "d69262a7f282fc9ea0021bc3bc6879ed34893decc2aa09babbea05fdd3041a9d",
+          "sha1": "a60d0ef3b1626fe79795ff2a6ff64144a7e8c585",
+          "md5": "98a910c857863b23f44c4091711accb9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.lwjgl.lwjgl",
+          "module": "lwjgl_util",
+          "version": {
+            "requires": "2.9.4-nightly-20150209"
+          }
+        },
+        {
+          "group": "org.lwjgl.lwjgl",
+          "module": "lwjgl",
+          "version": {
+            "requires": "2.9.4-nightly-20150209"
+          }
+        },
+        {
+          "group": "org.lwjgl.lwjgl",
+          "module": "lwjgl-platform",
+          "version": {
+            "requires": "2.9.4-nightly-20150209"
+          }
+        },
+        {
+          "group": "io.github.legacyrewoven.rewoven-api",
+          "module": "rewoven-api-base",
+          "version": {
+            "requires": "1.0.0+2e9af0c9b2"
+          }
+        },
+        {
+          "group": "io.github.legacyrewoven.rewoven-api",
+          "module": "rewoven-lifecycle-events-v1",
+          "version": {
+            "requires": "1.0.0+7af88e5b9d"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.12.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rewoven-vanilla-command-api-v1-1.0.0+7af88e5b9d.jar",
+          "url": "rewoven-vanilla-command-api-v1-1.0.0+7af88e5b9d.jar",
+          "size": 6358,
+          "sha512": "14a418672729be8eeaadf9506dd2a319c77f3a08cd3bc36eec38b459c7ed841168b6cb40ba26cdc3909a4965c23988459760613e5686739c958a59cbc6167929",
+          "sha256": "d69262a7f282fc9ea0021bc3bc6879ed34893decc2aa09babbea05fdd3041a9d",
+          "sha1": "a60d0ef3b1626fe79795ff2a6ff64144a7e8c585",
+          "md5": "98a910c857863b23f44c4091711accb9"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rewoven-vanilla-command-api-v1-1.0.0+7af88e5b9d-sources.jar",
+          "url": "rewoven-vanilla-command-api-v1-1.0.0+7af88e5b9d-sources.jar",
+          "size": 5679,
+          "sha512": "86036525c14d1264dc9f7c18e08c2d2781c0c7372ff6398a229f1f36b115adee4b345671dd66dc56c69370a5be26dee83db5652bfc48aedf6bd246a046143e98",
+          "sha256": "68b3fed7efadbcb16379fab2c57188c9fdcc6acdaea696867a68b77ce4e4100d",
+          "sha1": "2057f043227608144cbb5625cf84aad832853110",
+          "md5": "672e290558f4489f9fc5c587ab501603"
+        }
+      ]
+    }
+  ]
+}

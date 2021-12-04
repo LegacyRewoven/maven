@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.legacyrewoven.rewoven-api",
+    "module": "rewoven-sponge-command-api-v2",
+    "version": "1.0.0+bdea63f142",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "rewoven-sponge-command-api-v2-1.0.0+bdea63f142.jar",
+          "url": "rewoven-sponge-command-api-v2-1.0.0+bdea63f142.jar",
+          "size": 150335,
+          "sha512": "3d8416f48e0bcb17e5882e7da3ff95351553c1747643a74c2af8f0a03945c914f78eec029d1ca2634603bc3054ecb4395f93f7e84f86d019e53e72363c1bf491",
+          "sha256": "be40d8dfe7477ce931cf36f88bee360b23674ab984dabffa3bb2c53c1bce2cc2",
+          "sha1": "e512e444cf8275e1e00f92a2d839d4c4fcd121ed",
+          "md5": "b015bea46c44673b69a9e7c1d71d7e62"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.lwjgl.lwjgl",
+          "module": "lwjgl_util",
+          "version": {
+            "requires": "2.9.4-nightly-20150209"
+          }
+        },
+        {
+          "group": "org.lwjgl.lwjgl",
+          "module": "lwjgl",
+          "version": {
+            "requires": "2.9.4-nightly-20150209"
+          }
+        },
+        {
+          "group": "org.lwjgl.lwjgl",
+          "module": "lwjgl-platform",
+          "version": {
+            "requires": "2.9.4-nightly-20150209"
+          }
+        },
+        {
+          "group": "io.github.legacyrewoven.rewoven-api",
+          "module": "rewoven-api-base",
+          "version": {
+            "requires": "1.0.0+2e9af0c9b2"
+          }
+        },
+        {
+          "group": "io.github.legacyrewoven.rewoven-api",
+          "module": "rewoven-vanilla-command-api-v1",
+          "version": {
+            "requires": "1.0.0+7af88e5b9d"
+          }
+        },
+        {
+          "group": "io.github.legacyrewoven.rewoven-api",
+          "module": "rewoven-permissions-api-v1",
+          "version": {
+            "requires": "1.0.0+7af88e5b9d"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.12.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rewoven-sponge-command-api-v2-1.0.0+bdea63f142.jar",
+          "url": "rewoven-sponge-command-api-v2-1.0.0+bdea63f142.jar",
+          "size": 150335,
+          "sha512": "3d8416f48e0bcb17e5882e7da3ff95351553c1747643a74c2af8f0a03945c914f78eec029d1ca2634603bc3054ecb4395f93f7e84f86d019e53e72363c1bf491",
+          "sha256": "be40d8dfe7477ce931cf36f88bee360b23674ab984dabffa3bb2c53c1bce2cc2",
+          "sha1": "e512e444cf8275e1e00f92a2d839d4c4fcd121ed",
+          "md5": "b015bea46c44673b69a9e7c1d71d7e62"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rewoven-sponge-command-api-v2-1.0.0+bdea63f142-sources.jar",
+          "url": "rewoven-sponge-command-api-v2-1.0.0+bdea63f142-sources.jar",
+          "size": 132212,
+          "sha512": "3c4cdbb9919638eec072fbbfc2fc0462b6ed5cae2d2c70cba7f06ece23a41f0f1c662730753b5c34b026e1971520ddc991c4043ed0ca287dbb9ddef3bd962144",
+          "sha256": "545f0f3824f7ffe7f66a3127f557c97a66835e461209e631f4b4fc5e67b3da19",
+          "sha1": "8211bab8992a93b29462371b7dad01753ce5c491",
+          "md5": "5d927c3b0706b0ee5dd81c8aebc500ff"
+        }
+      ]
+    }
+  ]
+}

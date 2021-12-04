@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.legacyrewoven.rewoven-api",
+    "module": "rewoven-keybinding-api-v1",
+    "version": "1.0.0+bdea63f142",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "rewoven-keybinding-api-v1-1.0.0+bdea63f142.jar",
+          "url": "rewoven-keybinding-api-v1-1.0.0+bdea63f142.jar",
+          "size": 6723,
+          "sha512": "442079e9aae5a082f1fe667a5343bc82954e4627d1bc79ef2487b53b44c8ddc57599d58c6adcaa5372c92cfdb79ccccedd940d782a181345de559cbdd37c61d4",
+          "sha256": "14494d669de0e9744487cda65032b523abf1bc5b860281ac559cc4238b75ec77",
+          "sha1": "6e97339957031d2e85611303411ab2d79f2f3690",
+          "md5": "f0866ba0d5ffffdf2c2666d14964bdfe"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.lwjgl.lwjgl",
+          "module": "lwjgl_util",
+          "version": {
+            "requires": "2.9.4-nightly-20150209"
+          }
+        },
+        {
+          "group": "org.lwjgl.lwjgl",
+          "module": "lwjgl",
+          "version": {
+            "requires": "2.9.4-nightly-20150209"
+          }
+        },
+        {
+          "group": "org.lwjgl.lwjgl",
+          "module": "lwjgl-platform",
+          "version": {
+            "requires": "2.9.4-nightly-20150209"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.12.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rewoven-keybinding-api-v1-1.0.0+bdea63f142.jar",
+          "url": "rewoven-keybinding-api-v1-1.0.0+bdea63f142.jar",
+          "size": 6723,
+          "sha512": "442079e9aae5a082f1fe667a5343bc82954e4627d1bc79ef2487b53b44c8ddc57599d58c6adcaa5372c92cfdb79ccccedd940d782a181345de559cbdd37c61d4",
+          "sha256": "14494d669de0e9744487cda65032b523abf1bc5b860281ac559cc4238b75ec77",
+          "sha1": "6e97339957031d2e85611303411ab2d79f2f3690",
+          "md5": "f0866ba0d5ffffdf2c2666d14964bdfe"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rewoven-keybinding-api-v1-1.0.0+bdea63f142-sources.jar",
+          "url": "rewoven-keybinding-api-v1-1.0.0+bdea63f142-sources.jar",
+          "size": 6455,
+          "sha512": "28c1b02d8d672293a43d8aa5fc627dcdcf23e1a92f85a2f90615ec963463b2f279cdc9dff121d531e91f62b16f0d1fcb10dd2e691cce664653dbee1ee948cf61",
+          "sha256": "8588a4aaba7ca14211ce3b7b00ec06fa7cd72fcd3900444136ac4c1940bb9481",
+          "sha1": "8989d372d5b7d0b04f8b9ff7ff356e8839e08a68",
+          "md5": "0229c0611dfc5dcc5bc856bb301ba897"
+        }
+      ]
+    }
+  ]
+}

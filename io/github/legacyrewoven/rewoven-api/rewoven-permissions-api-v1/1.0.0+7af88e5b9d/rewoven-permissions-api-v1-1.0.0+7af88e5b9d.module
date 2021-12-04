@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.legacyrewoven.rewoven-api",
+    "module": "rewoven-permissions-api-v1",
+    "version": "1.0.0+7af88e5b9d",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "rewoven-permissions-api-v1-1.0.0+7af88e5b9d.jar",
+          "url": "rewoven-permissions-api-v1-1.0.0+7af88e5b9d.jar",
+          "size": 11835,
+          "sha512": "72ecabb35a37c61a36a76d16b229b234d1e617843af4dc57de93fdd3d221aa9e5c647abac62cb177b13181e1004d733481f327d941e62c15945cd39a5ccf13a3",
+          "sha256": "e9fe6aa6596ac6b546507f424d4b70f8485b4e43851731a25f2fcf8cefbf0849",
+          "sha1": "2666c412b412013666029738d6f58ca624fa16b1",
+          "md5": "cd8576fc8812e63beb708956df21f13d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.lwjgl.lwjgl",
+          "module": "lwjgl_util",
+          "version": {
+            "requires": "2.9.4-nightly-20150209"
+          }
+        },
+        {
+          "group": "org.lwjgl.lwjgl",
+          "module": "lwjgl",
+          "version": {
+            "requires": "2.9.4-nightly-20150209"
+          }
+        },
+        {
+          "group": "org.lwjgl.lwjgl",
+          "module": "lwjgl-platform",
+          "version": {
+            "requires": "2.9.4-nightly-20150209"
+          }
+        },
+        {
+          "group": "io.github.legacyrewoven.rewoven-api",
+          "module": "rewoven-api-base",
+          "version": {
+            "requires": "1.0.0+2e9af0c9b2"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.12.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rewoven-permissions-api-v1-1.0.0+7af88e5b9d.jar",
+          "url": "rewoven-permissions-api-v1-1.0.0+7af88e5b9d.jar",
+          "size": 11835,
+          "sha512": "72ecabb35a37c61a36a76d16b229b234d1e617843af4dc57de93fdd3d221aa9e5c647abac62cb177b13181e1004d733481f327d941e62c15945cd39a5ccf13a3",
+          "sha256": "e9fe6aa6596ac6b546507f424d4b70f8485b4e43851731a25f2fcf8cefbf0849",
+          "sha1": "2666c412b412013666029738d6f58ca624fa16b1",
+          "md5": "cd8576fc8812e63beb708956df21f13d"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rewoven-permissions-api-v1-1.0.0+7af88e5b9d-sources.jar",
+          "url": "rewoven-permissions-api-v1-1.0.0+7af88e5b9d-sources.jar",
+          "size": 12093,
+          "sha512": "3e5fc33607531ce661f00ae407eaad9c560107722876ab6040710223fb7516ec24cb02f92a88c5cc89f97ab3b0c80d63df4b6dac62f80b8d6dfb61747d8faad6",
+          "sha256": "83cf028d441ef32f35ea87d21278f08c95c40756f7068e7a609763f9eaf237c4",
+          "sha1": "f528746955640a8bd5be9b0a3a2c18993f6799e8",
+          "md5": "c33b6bde02e8a36b078d42ff25c31e55"
+        }
+      ]
+    }
+  ]
+}

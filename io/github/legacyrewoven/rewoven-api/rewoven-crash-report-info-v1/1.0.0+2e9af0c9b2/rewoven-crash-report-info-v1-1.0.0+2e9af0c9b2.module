@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.legacyrewoven.rewoven-api",
+    "module": "rewoven-crash-report-info-v1",
+    "version": "1.0.0+2e9af0c9b2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "rewoven-crash-report-info-v1-1.0.0+2e9af0c9b2.jar",
+          "url": "rewoven-crash-report-info-v1-1.0.0+2e9af0c9b2.jar",
+          "size": 4501,
+          "sha512": "032f227bc97561dfacad54aa50ba081fb130938c2083c04b5227ee0928f8432ac657db79569240679cab2c80ba9858bb6ee99d266b75403f27f85dfe20e541a3",
+          "sha256": "147eefe2ca7a8bb1017f177b9e88001909d21ab7e800f70ddb1342534cddbaf6",
+          "sha1": "117359fa63f9057f7559dfb4145f080136a193cf",
+          "md5": "84046ebd05d3cf0ed2ac7031a04e7a36"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.lwjgl.lwjgl",
+          "module": "lwjgl_util",
+          "version": {
+            "requires": "2.9.4-nightly-20150209"
+          }
+        },
+        {
+          "group": "org.lwjgl.lwjgl",
+          "module": "lwjgl",
+          "version": {
+            "requires": "2.9.4-nightly-20150209"
+          }
+        },
+        {
+          "group": "org.lwjgl.lwjgl",
+          "module": "lwjgl-platform",
+          "version": {
+            "requires": "2.9.4-nightly-20150209"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.12.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rewoven-crash-report-info-v1-1.0.0+2e9af0c9b2.jar",
+          "url": "rewoven-crash-report-info-v1-1.0.0+2e9af0c9b2.jar",
+          "size": 4501,
+          "sha512": "032f227bc97561dfacad54aa50ba081fb130938c2083c04b5227ee0928f8432ac657db79569240679cab2c80ba9858bb6ee99d266b75403f27f85dfe20e541a3",
+          "sha256": "147eefe2ca7a8bb1017f177b9e88001909d21ab7e800f70ddb1342534cddbaf6",
+          "sha1": "117359fa63f9057f7559dfb4145f080136a193cf",
+          "md5": "84046ebd05d3cf0ed2ac7031a04e7a36"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rewoven-crash-report-info-v1-1.0.0+2e9af0c9b2-sources.jar",
+          "url": "rewoven-crash-report-info-v1-1.0.0+2e9af0c9b2-sources.jar",
+          "size": 3488,
+          "sha512": "7609de751c4af066a559d74b72a39bf760baa3b7d0784f23f231284bf64ad3eaf95d59c219e1e3d150846ab8db0fb4592fa9aabfd46f1eb36d698b75b7c6afd5",
+          "sha256": "753f151c8bd6b59950f0e212dc51ce32cd8b32315a7acab7047433fbd16886f2",
+          "sha1": "8c46ccd67839cbf9a83f35dd2d0a4126e86e5058",
+          "md5": "bd3298ce04b18b5af3b1ccb533d99d02"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.legacyrewoven.rewoven-api",
+    "module": "rewoven-entity-events-v1",
+    "version": "1.0.0+7af88e5b9d",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "rewoven-entity-events-v1-1.0.0+7af88e5b9d.jar",
+          "url": "rewoven-entity-events-v1-1.0.0+7af88e5b9d.jar",
+          "size": 15940,
+          "sha512": "b7b18b914f8c14972f16fdcd4713632f9ebbac8176cd3671f11040c2f601de133ce22f4316ac36751ee211c1af0d81973d9954fa5498840ce41b2153135dbc7f",
+          "sha256": "7e85d7ce2d3c9cac1752b3f02c850ad0cd5587196c3393cae6c6dbd7a1741fec",
+          "sha1": "3797fc62065c2600149f7d5ae22045096a4404e9",
+          "md5": "ea1864661f4cc0330c327778497ff360"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.lwjgl.lwjgl",
+          "module": "lwjgl_util",
+          "version": {
+            "requires": "2.9.4-nightly-20150209"
+          }
+        },
+        {
+          "group": "org.lwjgl.lwjgl",
+          "module": "lwjgl",
+          "version": {
+            "requires": "2.9.4-nightly-20150209"
+          }
+        },
+        {
+          "group": "org.lwjgl.lwjgl",
+          "module": "lwjgl-platform",
+          "version": {
+            "requires": "2.9.4-nightly-20150209"
+          }
+        },
+        {
+          "group": "io.github.legacyrewoven.rewoven-api",
+          "module": "rewoven-api-base",
+          "version": {
+            "requires": "1.0.0+2e9af0c9b2"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.12.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rewoven-entity-events-v1-1.0.0+7af88e5b9d.jar",
+          "url": "rewoven-entity-events-v1-1.0.0+7af88e5b9d.jar",
+          "size": 15940,
+          "sha512": "b7b18b914f8c14972f16fdcd4713632f9ebbac8176cd3671f11040c2f601de133ce22f4316ac36751ee211c1af0d81973d9954fa5498840ce41b2153135dbc7f",
+          "sha256": "7e85d7ce2d3c9cac1752b3f02c850ad0cd5587196c3393cae6c6dbd7a1741fec",
+          "sha1": "3797fc62065c2600149f7d5ae22045096a4404e9",
+          "md5": "ea1864661f4cc0330c327778497ff360"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rewoven-entity-events-v1-1.0.0+7af88e5b9d-sources.jar",
+          "url": "rewoven-entity-events-v1-1.0.0+7af88e5b9d-sources.jar",
+          "size": 11329,
+          "sha512": "10dac7b18da30c0a29f81ac8f7190101d62bba6679ac6fbcfc534e3807396b7347f6891c3ba4b72cb8bf97920890ae4e04175d54740ffd7305c85a84f289dfd4",
+          "sha256": "a2e80abde96b4a24d16559cfd208b903182a9b28e1e9272284d2d81171c6e0be",
+          "sha1": "e35020d1e2979c467e4b05563b82143e147418b9",
+          "md5": "e193afb56aeab94d46faf501c906f4a0"
+        }
+      ]
+    }
+  ]
+}
